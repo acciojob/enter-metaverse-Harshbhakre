@@ -1,5 +1,7 @@
 document.querySelector("#enterBtn").addEventListener("click",()=>{
-  let ptag = document.querySelector("#status")
-	ptag.innerHTML = "Entered Metaverse"
-
+ const ptag = document.querySelector("#status");
+    const htag = document.createElement("h1");
+    htag.innerText = "Entered Metaverse";
+    htag.id = "status";
+    ptag.replaceWith(htag);
 })
