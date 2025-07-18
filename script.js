@@ -1,7 +1,5 @@
 document.querySelector("#enterBtn").addEventListener("click",()=>{
  const ptag = document.querySelector("#status");
-    const htag = document.createElement("h1");
-    htag.innerText = "Entered Metaverse";
-    htag.id = "status";
-    ptag.replaceWith(htag);
-})
+   ptag.innerText = "Entered Metaverse";
+ptag.style.fontSize = "2em";         
+ptag.style.fontWeight = "bold";   
